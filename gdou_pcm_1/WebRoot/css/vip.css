@@ -1,0 +1,150 @@
+ @charset "utf-8";
+/* CSS Document */
+
+body,div,ul,li,a,p,img,h4{
+	margin:0;
+	padding:0;
+	}
+.center{
+	width:913px;
+	margin-top:0.8em;
+	border-radius:0.5em;
+	padding:1em 1em;
+	   
+	}
+.vip_list{
+	width:212px;
+	height:15em;
+	background:white;
+	float:left;
+	border:#999 1px solid;
+	}
+.vip_title{
+	background:url(../image/title_left_bg.jpg) repeat;
+	height:30px;
+	line-height:30px;
+	
+	}
+.info_ico{
+
+	background:#383FD8;
+	padding-left:1em;
+	color:white;
+	font-weight:bold;
+	}
+.type_list {
+	position:relative;
+	}
+
+.type_list ul{
+	margin-top:1em;
+	list-style:none;
+	}
+.type_list ul li{
+	height:30px;
+	width:190px;
+	line-height:30px;
+	padding-left:20px;
+	color:#666;
+	cursor:pointer;
+	}
+.selected{
+	background:url(../image/club_left_bg.jpg) no-repeat 0 0 ;
+	}
+.vip_right{
+	width:680px;
+	display:none;
+	float:left;
+	margin-left:1em;
+	
+	}
+.contentin{
+	display:block;
+	}
+.vip_r_hd{
+	height:30px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	}
+.info_list{
+	background:#383FD8;
+	line-height:30px;
+	padding-left:1em;
+	color:white;
+	font-weight:bold;
+	}
+		/*订单，常用信息*/
+.subframe{
+	margin-top:0px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	}
+.subframe table {
+	text-align:center;
+	
+	}
+。haha table input{
+	width:80px;	
+	
+}
+.real input{
+	width:6em;
+	}
+.add{
+	text-align:center;
+	margin-top:1em;
+	}
+.addbtn{
+	width:5em;
+	height:2em;
+	border-radius:0.4em;
+	
+	background:#383FD8;
+	}
+	
+	/*个人信息*/
+.vip_right ul{
+	padding-top:2em;
+	list-style:none;
+	padding-bottom:1em;
+	}
+label{
+	float:left;
+	width:150px;
+	text-align:right;
+	font-size:14px;
+	line-height:2em;
+	height:2em;
+	}
+.xing{
+	color:red;
+	}
+#inp{
+	width:175px;
+	float:left;
+	}
+.warnning{
+	width:350px;
+	float:left;
+	font-size:14px;
+	line-height:2em;
+	height:2em;
+	color:#999;
+	}
+.save{
+	text-align:center;
+	margin-bottom:1em;
+	}
+.update{
+	margin-bottom:1em;
+	padding-left:10em;
+	}
+.message{
+	padding-left:3em;
+	width:500px;
+	float:left;
+	}
+.delete{
+	float:left;
+	}
+

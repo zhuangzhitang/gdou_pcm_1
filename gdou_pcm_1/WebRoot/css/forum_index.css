@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,p,img,h4{
+	margin:0;
+	padding:0;
+	}
+.center{
+	width:913px;
+	margin-top:0.8em;
+	
+	background:#ccc;
+	border-radius:0.5em;
+	padding:1em 1em;
+	}
+.forum_list{
+	width:212px;
+	height:15em;
+	background:white;
+	float:left;
+	border:#999 1px solid;
+	}
+.forum_title{
+	background:url(../image/title_left_bg.jpg) repeat;
+	height:30px;
+	line-height:30px;
+	
+	}
+.info_ico{
+
+	background:url(../image/ico_hy.png) no-repeat 16px 6px;
+	padding-left:3em;
+	color:white;
+	font-weight:bold;
+	}
+.type_list {
+	position:relative;
+	}
+
+.type_list ul{
+	margin-top:1em;
+	list-style:none;
+	}
+.type_list ul li{
+	height:30px;
+	width:190px;
+	line-height:30px;
+	padding-left:20px;
+	color:#666;
+	cursor:pointer;
+	}
+.selected{
+	background:url(../image/club_left_bg.jpg) no-repeat 0 0 ;
+	}
+.forum_right{
+	width:680px;
+	display:block;
+	float:left;
+	margin-left:0.5em;
+	
+	}
+.contentin{
+	display:block;
+	}
+.forum_r_hd{
+	height:30px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	}
+.info_list{
+	background:url(../image/ico_hy2.png) no-repeat 16px 6px;
+	line-height:30px;
+	padding-left:3em;
+	}
+		/*订单，常用信息*/
+.subframe{
+	margin-top:5px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	}
+.subframe table {
+	text-align:center;
+	
+	}
+.subframe_l table{
+	text-align:center;
+	
+	}
+.subframe_l{
+	margin-top:5px;
+	margin-right:20px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	width:380px;
+	float:left;
+	margin-top:1em;
+	}
+.subframe_l ul{
+	list-style:none;
+	padding:10px 25px;
+	}
+.subframe_l ul li{
+	background:url(../image/dot.jpg) no-repeat 0 13px;
+	height:2em;
+	line-height:2em;
+	text-indent: 20px;
+	border-bottom:1px #0099CC dotted;
+	}
+.subframe_l ul li span {
+	float: right;
+	color: #000;
+	padding-right: 15px;
+	font-size: 13px;
+    }
+.subframe_l ul li a {
+	font-size: 13px;
+	color: #666;
+	}
+a{
+	text-decoration:none;
+	color:#666;
+	}
+	<!--翻页-->
+.paging_box{
+	float:right;
+	margin-top:1em;
+	}
+.paging_box span{
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin-right: 5px;
+	padding: 0 7px;
+	text-align: center;
+	}
+.paging_box span.back {
+	background: url(../image/ico_bg.gif) no-repeat scroll 6px -39px #FFFFFF;
+	padding: 0;
+	width: 24px;
+	}
+.paging_box span.next {
+	background:url(../image/ico_bg.gif) no-repeat scroll 6px -65px #FFFFFF;
+	padding: 0;
+	width: 24px;
+	
+	}
+.subframe_r{
+	margin-top:5px;
+	background:#f6f6f6;
+	border:1px #999 solid;
+	width:250px;
+	float:left;
+	border:1px #999999 solid;
+	margin-top:1em;
+	padding:0.5em;
+	}
+.subframe_r ul{
+	list-style:none;
+	}
+.check{
+	padding-top:1em;
+	text-align:center;
+	}
+.title{
+	margin-top:0.5em;
+	text-align:center;
+	}
+.place{
+	padding-left:4em;
+	}
+.place input{
+	width:7em;
+	margin-right:2em;
+	}
+.content{
+	padding-left:4em;
+	}
+.send{
+	margin:0.5em;
+	text-align:center;
+	}

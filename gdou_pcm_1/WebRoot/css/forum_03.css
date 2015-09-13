@@ -1,0 +1,123 @@
+
+.postcontent{
+	width:669px;
+	padding-top:15px;
+	background:#fff;
+	}
+
+.top_div{
+	width:94%;
+	/*padding-top:20px;
+	margin-left:28px;*/
+	padding-bottom:10px;
+	}
+.center_div {
+	
+	height:auto;
+	/* background-image:linear-gradient(top, #fffdf41, #ffffd7);
+	 Firefox 3.6
+    background-image: -moz-linear-gradient(top, #fffdf41, #ffffd7); 
+    Safari & Chrome
+    background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #ffffd7),color-stop(1,#ffdf41 )); 
+    IE6 & IE7
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffdf41', endColorstr='#ffffd7'); 
+    IE8 
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffdf41', endColorstr='#ffffd7')";     */
+	}
+center_div2{
+	width:94%;
+	/*padding-top:20px;
+	margin-left:28px;*/
+	padding-bottom:10px;
+	}	
+.bottom_div{
+	width:100%;
+	/*margin-left:28px;
+	padding-bottom:15px;*/
+	}
+.title span{
+	font-size:1em;
+	font-weight:bold;
+	}
+.title span.time{
+	font-size:0.8em;
+	font-weight:bold;
+	color:#333;
+	float:right;
+	}
+
+.title2{
+	width:100%;
+	background:#ccc;
+	height:22px;
+	text-align:left;
+	}
+.title2 p{
+	background:#ccc;
+	
+	}
+#head{
+	width:50px;
+	height:50px;
+	border:#039 1px solid;
+	clear:both;
+
+	}
+.opition{
+	padding-top:10px;
+	width:100%;
+	text-align:left;
+	}
+.opition_content{
+	padding-top:10px;
+	font-size:0.9em;
+	vertical-align:top;
+	padding-bottom:20px;
+	padding-top:15px;
+	}
+
+input[type=button]{
+	height:25px;
+	width:30px;
+	background:#383FD8;
+	font-size:1em;
+	border-radius:0.4em;
+	font-weight:bold;
+	}
+.img{
+	padding-left:10px;
+	
+	}
+.img table tr td{
+	text-align:left;
+}
+.hidden{
+	width:100%;
+	height:15px;
+	background:#CCC;
+	clear:both;
+	}
+
+.place{
+	width:100%;
+	padding:10px;
+	}
+.place table{
+	width:70%;
+	text-align:left;
+	font-size:0.9em;
+	}
+	
+.post_content{
+	width:600px;
+	height:200px;
+	border:#fff 1px solid;
+	margin-left:auto;
+	margin-right:auto;
+	}
+p{
+	text-indent:2em;
+	font-size:0.8em;
+	text-align:left;
+	line-height:1.6em;
+}

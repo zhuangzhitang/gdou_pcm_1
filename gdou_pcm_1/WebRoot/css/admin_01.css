@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+.center_div{
+	width:580px;
+	background:#fff;
+	margin-top:10px;
+	
+	
+	}
+.hidden{
+	clear:both;
+	height:0;
+	width:0px;
+	}
+.title{
+	font-size:1em;
+	font-weight:bold;
+	text-align:left;
+	width:100%;
+	
+	padding:7px 0px;
+	}
+.car_content{
+	float:left;
+	width:70%;
+	text-align:left;
+	padding-left:20px;
+	padding-top:10px;
+	font-size:0.9em;
+	}
+.car_img{
+	float:right;
+	width:20%;
+	
+	}
+.img_div{
+	width:100px;
+	height:100px;
+	border:#03F 2px solid;
+	
+	}s
+p{
+	font-size:0.8em;
+
+	}

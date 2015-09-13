@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,p,img,h3{
+	margin:0;
+	padding:0;
+	}
+.center{
+	width:913px;
+	margin-top:0.8em;
+	
+	background:white;
+	border-radius:0.5em;
+	padding:1em 1em;
+	}
+a{
+	text-decoration:none;
+	}
+.info_r{
+	width:880px;
+	background:white;
+	
+	margin-left:1em;
+	border:1px #999 solid;
+	}
+.info_r_hd{
+	height:30px;
+	background:#f6f6f6;
+	
+	}
+.info_list{
+	background:#383FD8;
+	line-height:30px;
+	padding-left:1em;
+	font-weight:bold;
+	}
+
+.content{
+	width:780px;
+	background:white;
+	padding:1em 2em;
+	text-align:center;
+	}
+.content h3{
+	margin-top:2em;
+	
+	}
+.time{
+	color:#666;
+	font-size:14px;
+	}
+.message{
+	text-indent:2em;
+	text-align:left;
+	color:#666;
+	line-height:1.8em;
+	}
+.returnback{
+	float:right;
+	margin-right:1em;
+	margin-top:0.5em;
+	}
+.returnback a{
+	color:#F60;
+	text-decoration:underline;
+	}
+.returnback a:hover{
+	text-decoration:none;
+	color:#666;
+	}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="gdou_pcm_1"
+  id="myeclipse.1397568121364"
+  context-root="/gdou_pcm_1"
+  j2ee-spec="5.0"
+  archive="gdou_pcm_1.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

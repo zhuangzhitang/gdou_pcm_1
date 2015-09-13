@@ -1,0 +1,12 @@
+#Sat May 10 22:49:45 CST 2014
+eclipse.preferences.version=1
+encoding//WebRoot/Filetool.jsp=UTF-8
+encoding//WebRoot/index.jsp=UTF-8
+encoding//src/net/itaem/servlet/AjaxCommonNameServlet.java=UTF-8
+encoding//src/net/itaem/servlet/ChangePasswordServlet.java=UTF-8
+encoding//src/net/itaem/servlet/OrderTicketServlet.java=UTF-8
+encoding//src/net/itaem/servlet/PersonShowServlet.java=UTF-8
+encoding//src/net/itaem/servlet/RegisterServlet.java=UTF-8
+encoding//src/net/itaem/tool/ExcelTool.java=UTF-8
+encoding//src/net/itaem/tool/ExceptionRecordTool.java=UTF-8
+encoding/<project>=GBK

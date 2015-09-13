@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.center{
+	padding:20px;
+	}
+.login_div{
+	padding:10px;
+	width:913px;
+	background:white;
+	height:480px;
+	}
+.login{
+	padding:10px;
+	width:70%;
+	margin-left: auto;
+    margin-right: auto;
+
+	}
+input[type=text],input[type=password] { 
+    width: 15em;
+	height:1.5em;
+	margin-bottom:1em; 
+ }
+ 
+ input[type=submit]{ 
+    width:3em;
+	height:1.5em;
+	background:#383FD8;
+	font-size:1.7em;
+	border-radius:0.4em;
+ }
+   input[type=reset]{ 
+    width:3em;
+	height:1.5em;
+	background:#ccc;
+	font-size:1.7em;
+	border-radius:0.4em;
+ 
+ .labels{
+ width:20%;
+ padding-left:40px;
+ }
+table{
+	text-align:left;
+}
+h3 {
+	width:913px;
+	margin:0;
+	font-size:1em;
+	padding:0.5em;
+	float:left;
+	color:white;
+	background:#383FD8;
+}

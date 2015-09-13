@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+	font-size:0.9em;
+	}
+table th{
+	text-align:left;
+}
+
+.table_div{
+	width:100%;
+	margin-top:10px;
+	}
+.car_div{
+	margin:20px;
+	width:300px;
+	}
+.info_div{
+	width:100%;
+	opacity:0;
+	fliter:alpha(opacity=0);
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    -moz-opacity:0;              /* 老版Mozilla */
+    -khtml-opacity:0;              /* 老版Safari */
+	height:100%;
+    background-color:#CCCCCC;
+    position:absolute;
+    z-index:20;
+    left:0px;
+    top:0px;
+	}
+
+.info{
+	width:550px;
+	height:50px;
+	margin:0px;
+	
+	z-index:101;
+	background:#fff;
+	border:#00F 2px solid;
+	position:absolute;
+    z-index:101;
+    left:0px;
+    top:100px;
+	padding:30px 20px 20px 20px	
+	}
+
+.info_div,.info{
+	display:none;}
+	
+.active{
+	display:block;
+	}
+input[type=text]{
+	width:60px;
+	height:30px;
+	}

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+     <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowNoteServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.ShowNoteServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ShowNoteServlet</servlet-name>
+    <url-pattern>/ShowNoteServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetRegisterLinkServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.GetRegisterLinkServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EnterServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.EnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckIsExitServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.CheckIsExitServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewOrderServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.ViewOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonNameServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.CommonNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.ChangePasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckOldPasswordServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.CheckOldPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindPasswordServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.FindPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonInformationServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.PersonInformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindTicketServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.FindTicketServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetTicketServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.GetTicketServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AjaxCommonNameServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.AjaxCommonNameServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderTicketServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.OrderTicketServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefundTicket</servlet-name>
+    <servlet-class>net.itaem.servlet.RefundTicket</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExitUserServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.ExitUserServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.NewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeamServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.TeamServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PiaoWuServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.PiaoWuServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VerificationCodeServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.VerificationCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PersonShowServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.PersonShowServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.MessageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadImage</servlet-name>
+    <servlet-class>net.itaem.servlet.UploadImage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HtEnterServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.HtEnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetPasswordServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.GetPasswordServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RefreshEnterServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.RefreshEnterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GetMessageNumberServlet</servlet-name>
+    <servlet-class>net.itaem.servlet.GetMessageNumberServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>GetRegisterLinkServlet</servlet-name>
+    <url-pattern>/GetRegisterLinkServlet</url-pattern>
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EnterServlet</servlet-name>
+    <url-pattern>/EnterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckIsExitServlet</servlet-name>
+    <url-pattern>/CheckIsExitServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewOrderServlet</servlet-name>
+    <url-pattern>/ViewOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonNameServlet</servlet-name>
+    <url-pattern>/CommonNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordServlet</servlet-name>
+    <url-pattern>/ChangePasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckOldPasswordServlet</servlet-name>
+    <url-pattern>/CheckOldPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindPasswordServlet</servlet-name>
+    <url-pattern>/FindPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonInformationServlet</servlet-name>
+    <url-pattern>/PersonInformationServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindTicketServlet</servlet-name>
+    <url-pattern>/FindTicketServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetTicketServlet</servlet-name>
+    <url-pattern>/GetTicketServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AjaxCommonNameServlet</servlet-name>
+    <url-pattern>/AjaxCommonNameServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderTicketServlet</servlet-name>
+    <url-pattern>/OrderTicketServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefundTicket</servlet-name>
+    <url-pattern>/RefundTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExitUserServlet</servlet-name>
+    <url-pattern>/ExitUserServlet</url-pattern>
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewServlet</servlet-name>
+    <url-pattern>/NewServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeamServlet</servlet-name>
+    <url-pattern>/TeamServlet</url-pattern>
+
+
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PiaoWuServlet</servlet-name>
+    <url-pattern>/PiaoWuServlet</url-pattern>
+
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VerificationCodeServlet</servlet-name>
+    <url-pattern>/VerificationCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PersonShowServlet</servlet-name>
+    <url-pattern>/PersonShowServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/MessageServlet</url-pattern>
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadImage</servlet-name>
+    <url-pattern>/UploadImage</url-pattern>
+
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HtEnterServlet</servlet-name>
+    <url-pattern>/HtEnterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPasswordServlet</servlet-name>
+    <url-pattern>/GetPasswordServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RefreshEnterServlet</servlet-name>
+    <url-pattern>/RefreshEnterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetMessageNumberServlet</servlet-name>
+    <url-pattern>/GetMessageNumberServlet</url-pattern>
+  </servlet-mapping>	
+
+  <display-name></display-name>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+ 
+ <!-- error pages definition -->
+ 	<error-page>
+ 	    <error-code>500</error-code>
+		<location>/commons/500.jsp</location>
+ 	</error-page>
+ 	<error-page>
+		<error-code>404</error-code>
+		<location>/commons/404.jsp</location>
+	</error-page>
+</web-app>

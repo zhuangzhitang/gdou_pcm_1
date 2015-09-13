@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,ul,li,a,p,img,h4{
+	margin:0;
+	padding:0;
+	}
+.center{
+	width:913px;
+	margin-top:0.8em;
+	
+	
+	
+	padding:1em 1em;
+	}
+	
+h3{
+	padding:0.3em;
+	background:#383FD8;
+	border-bottom: 2px solid #050A7B;
+	color:white;
+	font-weight: 100;
+font-family: sans-serif;
+	}
+.tickets_div{
+	background:#F6F6F6;
+	width:100%;
+	height:600px;
+	}
+.tickets_table{
+	display:inline;
+	margin:0 15px;
+	width:100%;
+	padding:15px;
+	}
+.title{
+	margin-top:0em;
+	font-weight:bold;
+}
+.ticket_r_hd{
+	height:30px;
+	background:#383FD8;
+	border:1px #999 solid;
+	text-align:left;
+	}
+.info_list{
+	background:#383FD8;
+	line-height:30px;
+	padding-left:1em;
+	}
+table{
+	text-align:center;
+	width:97%;
+	font-size:0.9em;
+	}
+	
+.tickets_info{
+	width:97%;
+	padding:15px;
+	margin-top:20px;
+	}
+.table_div2{
+	width:40%;
+	float:left;
+	
+	}
+.table_div2 table{
+	width:100%;
+	padding-bottom:5px;}
+	
+.name_selected{
+	float:left;
+	width:60%;
+	}
+.name_selected table{
+	text-align:center;
+	padding-left:20px;
+	}
+.button_div{
+	width:100%;
+	clear:both;
+	margin-top:20px;
+	padding-top:30px;
+	}
+input[type=button]{
+	height:35px;
+	width:300px;
+	background:#C4E1FF;
+	font-size:1em;
+	font-weight:bold;
+	}
+#buy_ticket{
+	background:#383FD8;
+	border-radius:0.4em;
+	width:15em;
+	height:3em;
+	
+}
+.before_div{
+	width:100%;
+	opacity:0;
+	fliter:alpha(opacity=0);
+    -moz-opacity:0;              /* 老版Mozilla */
+    -khtml-opacity:0;              /* 老版Safari */
+	height:100%;
+    background-color:#CCCCCC;
+    position:absolute;
+    z-index:100;
+    left:0px;
+    top:0px;
+	}
+
+.before_info{
+	width:450px;
+	height:340px;
+	margin:0px;
+	z-index:101;
+	background:#f6f6f6;
+	border:#999 2px solid;
+	position:absolute;
+    z-index:101;
+    left:230px;
+    top:100px;
+	padding:0px 0px 0px 0px	
+	}
+
+.before_div,.before_info{
+	display:block;}
+	
+.active{
+	display:none;
+	}
+.before_content{
+	width:420px;
+	height:250px;
+	padding:0.5em;
+	}
+#btn{
+	height:30px;
+	width:50px;
+	background:#383FD8;
+	font-size:1em;
+	font-weight:bold;
+	border-radius:0.4em;
+	}	

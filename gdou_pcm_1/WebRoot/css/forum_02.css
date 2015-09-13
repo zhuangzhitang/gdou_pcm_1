@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+.post{
+	margin:3px;
+	float:left;
+	width:665px;
+	background:#fff;
+	}
+form{
+	padding:10px;
+	width:95%;
+	margin-top:15px;
+	}
+table{
+	width:100%;
+	}
+table th{
+	text-align:center;}
+
+table tr{
+	text-align:center;
+	padding-bottom:10px;
+	height:25px;
+	widows:100%;
+	}
+span{
+	font-weight:bold;
+	
+	}
+#title{
+	width:300px;
+
+	}
+.span2{
+	text-align:left;
+	width:100%;
+	padding-top:10px;
+	}
+.content_div{
+	text-align:left;
+	width:90%;
+	padding-top:10px;
+	padding-left:45px;
+	}
+input[type=button]{
+	height:25px;
+	widows:30px;
+	background:#C4E1FF;
+	font-size:0.9em;
+	font-weight:bold;
+	}
+.center{
+	
+	padding-top:10px;
+	margin-top:20px;
+	padding-bottom:20px;}
+h3{
+	padding:0.3em;
+	background:#383FD8;
+	border-bottom: 2px solid #050A7B;
+	color:white;
+	font-weight: 100;
+font-family: sans-serif;
+	}
